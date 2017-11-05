@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:70c7429e0cdc62a38b9a9779a8591324:4cc0c4e4bfff5da8e1e90d6c70256740:8a3d1300b8b633a871e4b7a0741c85fc$ -->
+<TextureAtlas imagePath="1.png">
+    <SubTexture name="pig" x="176" y="2" width="64" height="68" frameX="-8" frameY="-6" frameWidth="80" frameHeight="80"/>
+    <SubTexture name="yumao" x="2" y="2" width="172" height="242"/>
+</TextureAtlas>

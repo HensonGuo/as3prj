@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<slideshow>
+	<settings
+		mediaBgColor="0x111111"
+		mediaBgOpacity="90"
+	
+		mediaPaddingX="5"
+		mediaPaddingY="5"
+		mediaWidth="821"
+		mediaHeight="380"
+
+		btnArrowColor="0xcccccc"
+		btnBgColor="0x222222"
+		btnBorderColor="0x333333"
+		btnBgOpacity="90"
+		
+		btnBgColorOnMouseOver="0xcccccc"
+		btnBorderColorOnMouseOver="0x666666"
+		btnArrowColorOnMouseOver="0x222222"
+		
+		showButtons="true"
+		
+		btnAlign="right"
+		
+		backgroundShadowOpacity="100"
+		backgroundShadowBlur="15"
+		
+		timerBarColor="0xffffff"
+		timerBarOpacity="20"
+		timerBarHeight="3"
+		
+		autoStart="true"
+		transitionType="random"
+		textTransition="0.3"
+		timer="8">
+	</settings>
+	<images>
+		<image 
+			src="slideshow/自信.jpg"
+			textY = "350"
+			textX = "0"
+			textDistance = "8"
+			link="http://www.flashcms.org/">
+				<text bgColor = "0x000000" bgOpacity = "60"><![CDATA[<font color="#00ccff" size="18">自信</font>]]></text>
+			</image>
+		<image 
+			src="slideshow/独立.jpg"
+			textY = "350"
+			textX = "0"
+			textDistance = "8"
+			link="http://www.flashcms.org/">
+				<text bgColor = "0x000000" bgOpacity = "60"><![CDATA[<font color="#00ccff" size="18">独立</font>]]></text>
+			</image>
+		<image 
+			src="slideshow/性感.jpg"
+			textY = "350"
+			textX = "0"
+			textDistance = "8"
+			link="http://www.flashcms.org/">
+				<text bgColor = "0x000000" bgOpacity = "60"><![CDATA[<font color="#00ccff" size="18">性感</font>]]></text>
+			</image>
+		<image 
+			src="slideshow/成熟.jpg"
+			textY = "350"
+			textX = "0"
+			textDistance = "8"
+			link="/home/slideshow/24.html">
+				<text bgColor = "0x000000" bgOpacity = "60"><![CDATA[<font color="#00ccff" size="18">成熟</font>]]></text>
+			</image>
+		<image 
+			src="slideshow/关注时尚.jpg"
+			textY = "350"
+			textX = "0"
+			textDistance = "8"
+			link="/home/slideshow/25.html">
+				<text bgColor = "0x000000" bgOpacity = "60"><![CDATA[<font color="#00ccff" size="18">关注时尚</font>]]></text>
+			</image>
+
+	</images>
+</slideshow>

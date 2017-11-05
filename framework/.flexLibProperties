@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="FrameWork"/>
+    <classEntry path="core.data.ArrayData"/>
+    <classEntry path="utils.lib.RegExpLib"/>
+    <classEntry path="display.layer.LayerConstants"/>
+    <classEntry path="display.layer.LayerManager"/>
+    <classEntry path="display.layer.Layer"/>
+    <classEntry path="display.menu.SubMenu"/>
+    <classEntry path="display.menu.Menu"/>
+    <classEntry path="timer.TimerManager"/>
+    <classEntry path="timer.BaseTimer"/>
+    <classEntry path="frame.FrameType"/>
+    <classEntry path="frame.FrameManager"/>
+    <classEntry path="frame.Frame"/>
+    <classEntry path="interactive.keyboard.Shortcuts"/>
+    <classEntry path="utils.LocalStorage"/>
+    <classEntry path="system.Memory"/>
+    <classEntry path="loader.LoaderManager"/>
+    <classEntry path="loader.RequestManager"/>
+    <classEntry path="loader.core.RequestBox"/>
+    <classEntry path="loader.type.LoadResType"/>
+    <classEntry path="loader.LoadEvent"/>
+    <classEntry path="loader.core.AtOnceLoader"/>
+    <classEntry path="loader.type.LoadType"/>
+    <classEntry path="math.Vector2D"/>
+    <classEntry path="math.Int64"/>
+    <classEntry path="media.IMediaCore"/>
+    <classEntry path="media.MediaCore"/>
+    <classEntry path="media.MediaState"/>
+    <classEntry path="media.StreamMedia"/>
+    <classEntry path="media.MediaRecoder"/>
+    <classEntry path="media.MediaEvent"/>
+    <classEntry path="media.MP3Media"/>
+    <classEntry path="display.gui.UIFactory"/>
+    <classEntry path="display.gui.theme.aeon.AeonCustomTheme"/>
+    <classEntry path="display.gui.skin.SkinManager"/>
+    <classEntry path="utils.color.ColorFilter"/>
+    <classEntry path="utils.color.ColorUtil"/>
+    <classEntry path="interactive.mouse.Cursor"/>
+    <classEntry path="loader.cgi.CGISender"/>
+    <classEntry path="loader.cgi.ICGIReciever"/>
+    <classEntry path="utils.DisposeUtil"/>
+    <classEntry path="resource.pools.Reuse"/>
+    <classEntry path="resource.interfaces.IDestory"/>
+    <classEntry path="display.gui.UIReset"/>
+    <classEntry path="interactive.keyboard.ShortCutsEvent"/>
+    <classEntry path="display.gui.skin.BaseSkin"/>
+    <classEntry path="display.gui.skin.ButtonSkin"/>
+    <classEntry path="display.gui.skin.BaseButtonSkin"/>
+    <classEntry path="display.gui.skin.ButtonGroupSkin"/>
+    <classEntry path="display.gui.skin.CheckBoxSkin"/>
+    <classEntry path="display.gui.skin.AeonSkin"/>
+    <classEntry path="utils.OptimizeUtil"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

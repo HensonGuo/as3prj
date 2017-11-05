@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:380dfefbed82824c8a43e49090886caa:70b3ec9233f630b611384f2728cc2699:90a68ccae83e65ad8ceeb861f0a8529d$ -->
+<TextureAtlas imagePath="icons.png">
+    <SubTexture name="400020000" x="2" y="2" width="60" height="60"/>
+    <SubTexture name="400020010" x="2" y="64" width="60" height="60"/>
+    <SubTexture name="400020020" x="2" y="126" width="60" height="60"/>
+    <SubTexture name="400020030" x="2" y="188" width="60" height="60"/>
+    <SubTexture name="400040000" x="2" y="250" width="60" height="60"/>
+    <SubTexture name="400040010" x="2" y="312" width="60" height="60"/>
+    <SubTexture name="400040020" x="2" y="374" width="60" height="60"/>
+    <SubTexture name="400040030" x="2" y="436" width="60" height="60"/>
+    <SubTexture name="400050000" x="64" y="2" width="60" height="60"/>
+    <SubTexture name="400050010" x="126" y="2" width="60" height="60"/>
+    <SubTexture name="400050020" x="188" y="2" width="60" height="60"/>
+    <SubTexture name="400050030" x="250" y="2" width="60" height="60"/>
+    <SubTexture name="400060000" x="312" y="2" width="60" height="60"/>
+    <SubTexture name="400060010" x="374" y="2" width="60" height="60"/>
+    <SubTexture name="400060020" x="436" y="2" width="60" height="60"/>
+    <SubTexture name="400060030" x="64" y="64" width="60" height="60"/>
+    <SubTexture name="400070000" x="64" y="126" width="60" height="60"/>
+    <SubTexture name="400070010" x="64" y="188" width="60" height="60"/>
+    <SubTexture name="400070020" x="64" y="250" width="60" height="60"/>
+    <SubTexture name="400070030" x="64" y="312" width="60" height="60"/>
+    <SubTexture name="400080000" x="64" y="374" width="60" height="60"/>
+    <SubTexture name="400080010" x="64" y="436" width="60" height="60"/>
+    <SubTexture name="400080020" x="126" y="64" width="60" height="60"/>
+    <SubTexture name="400080030" x="188" y="64" width="60" height="60"/>
+    <SubTexture name="400090000" x="250" y="64" width="60" height="60"/>
+    <SubTexture name="400090010" x="312" y="64" width="60" height="60"/>
+    <SubTexture name="400090020" x="374" y="64" width="60" height="60"/>
+    <SubTexture name="400090030" x="436" y="64" width="60" height="60"/>
+    <SubTexture name="400100000" x="126" y="126" width="60" height="60"/>
+    <SubTexture name="400100010" x="126" y="188" width="60" height="60"/>
+    <SubTexture name="400100020" x="126" y="250" width="60" height="60"/>
+    <SubTexture name="400100030" x="126" y="312" width="60" height="60"/>
+    <SubTexture name="400110000" x="126" y="374" width="60" height="60"/>
+    <SubTexture name="400110010" x="126" y="436" width="60" height="60"/>
+    <SubTexture name="400110020" x="188" y="126" width="60" height="60"/>
+    <SubTexture name="400110030" x="250" y="126" width="60" height="60"/>
+    <SubTexture name="400120000" x="312" y="126" width="60" height="60"/>
+    <SubTexture name="400120010" x="374" y="126" width="60" height="60"/>
+    <SubTexture name="400120020" x="436" y="126" width="60" height="60"/>
+    <SubTexture name="400120030" x="188" y="188" width="60" height="60"/>
+</TextureAtlas>

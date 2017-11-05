@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	creationComplete="init()"
+	>
+	<mx:Script>
+		<![CDATA[
+			import sql.events.ConnectEvent;
+			
+			private var con:Connect;
+			private var nfile:File;
+			
+			private function init():void
+			{
+				var sqlStr:ConnectManager=ConnectManager.getInstance()
+				nfile=sqlStr.dbFile=File.applicationStorageDirectory.resolvePath('test.db');
+				trace(sqlStr.dbFile.url)
+/* 			
+				con.addEventListener(hcxm.air.sqlStr.Connect.ONCREATEDATEBASE,OnCreateDataBase)
+				con.addEventListener(Connect.OnCreateTable,OnCreateTable)
+				con.addEventListener(Connect.OnInsertDataComple,OnInsertDataComple) */
+			//	con.addEventListener(Connect.OnSelectResult,OnDataResult)
+				con=new Connect(sqlStr.getConnection(),sqlStr.dbFile);
+				
+				con.addEventListener(ConnectEvent.ON_CREATE_TABLE,OnCreateTable)
+				con.addEventListener(ConnectEvent.ON_INSERT_DATA_COMPLETE,OnInsertDataComple)
+				con.addEventListener(ConnectEvent.ON_SELECT_COMPLETE,OnDataResult)
+				con.addEventListener(ConnectEvent.ON_CREATE_DATA_BASE,OnCreateDataBase)
+				
+				con.createDB()
+			}
+			private function OnCreateDataBase(e:ConnectEvent):void
+			{
+				if(nfile.size<=0)
+				{
+					con.createTable('me',"empId INTEGER PRIMARY KEY AUTOINCREMENT, firstName TEXT,lastName TEXT,salary NUMERIC CHECK (salary > 0)") ;
+				}else
+				{
+					con.tableName='me';
+					//con.insertData(['firstName', 'lastName', 'salary'],['"Bob"', '"Smith"', 3000]);
+					con.selectAll();
+					
+				}			
+			}
+			private function OnCreateTable(e:ConnectEvent):void
+			{
+				//con.createTable('me'," empId INTEGER PRIMARY KEY AUTOINCREMENT, firstName TEXT,lastName TEXT,salary NUMERIC CHECK (salary > 0)") ;
+				trace(e)
+				
+			}
+			private function OnInsertDataComple(e:ConnectEvent):void
+			{
+				trace(e)
+			}
+			private function OnDataResult(e:ConnectEvent):void
+			{
+				trace(e.data)
+			}
+		]]>
+	</mx:Script>
+</mx:WindowedApplication>
